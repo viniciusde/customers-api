@@ -1,11 +1,9 @@
 spring:
   data:
     mongodb:
-      database: star-wars-db
-      uri: mongodb://star-wars-db:A620jnvGiTakVHJCy6wOz8pUWYg24Bc6SJkhiFyEDyQflr2VsUUT73MbNlvcVS9YNxvSxDtmnqPAJKMHPHAaEw==@star-wars-db.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@star-wars-db@
-#      database: ${DB_DATABASE:customers}
-#      host: ${DB_HOST:mongo_db}
-#      port: ${DB_PORT:27017}
+      database: ${DB_DATABASE:customers}
+      host: ${DB_HOST:mongo_db}
+      port: ${DB_PORT:27017}
 
 springdoc:
   api-docs:
